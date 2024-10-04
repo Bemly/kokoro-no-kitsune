@@ -8,7 +8,7 @@ Note: This beautified version only modifies the appearance of the `Magisk APP`.
 The usage and functionality are identical to the original version.
 If you need more stable features, please use the [***official original version***](https://github.com/HuskyDG/magisk-files).
 
-Warning: This Magisk is always built using the `Debug` channel,
+Warning: This Magisk is always built using the `Canary` channel,
 so instability will be common! Since the default package name has been modified,
 some modules that rely on the default package name for identification may not work properly!
 
@@ -36,7 +36,7 @@ The following sections are for developers
 ## 面具 车万秦心特供版
 
 - 动机：个人用过的最好康的主题，但是作者捏在2021年弃坑了，然后我就把她捡起来然后移植到Magisk delta上面来惹（
-- 注意：本面具始终采用`Debug`通道进行构建，不稳定情况会很多！由于修改了默认包名，一些依靠面具本体包名识别的模块将无法正常工作！
+- 注意：本面具始终采用`Canary`通道进行构建，不稳定情况会很多！由于修改了默认包名，一些依靠面具本体包名识别的模块将无法正常工作！
 
 ### 新老版本对比
 
