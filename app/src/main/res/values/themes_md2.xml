@@ -63,11 +63,7 @@
     </style>
 
     <style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
-        <item name="colorSurface">#FFF</item>
-        <item name="colorOnPrimary">#FFF</item>
-        <item name="colorOnSecondary">#FFF</item>
-        <item name="colorOnBackground">#FFF</item>
-        <item name="colorOnError">#FFF</item>
+        <item name="android:windowBackground">#FB7299</item>
     </style>
 
     <style name="ThemeFoundationMD2.Rayquaza" parent="ThemeFoundationMD2.Piplup">

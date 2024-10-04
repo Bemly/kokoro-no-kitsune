@@ -31,17 +31,18 @@ The following sections are for developers
 
 ## How use
 
-- Kitsune(delta) version : [Download 27001A version](https://github.com/Bemly/kokoro-no-kitsune/releases/download/27001a/app-release.apk)
+- Kitsune(delta) version : [Download 27001B version](https://github.com/Bemly/kokoro-no-kitsune/releases/download/27001b/app-release.apk)
 - Magisk version : [@missingpower](https://t.me/missingpower)
 
 ## the Original README
 
-https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.MD
+https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.md
 
 ## 面具 车万秦心特供版
 
 - 动机：个人用过的最好康的主题，但是作者捏在2021年弃坑了，然后我就把她捡起来然后移植到Magisk delta上面来惹（
 - 注意：本面具始终采用`Canary`通道进行构建，不稳定情况会很多！由于修改了默认包名，一些依靠面具本体包名识别的模块将无法正常工作！
+- 单独包名，支持共存，但是没什么用（（（（
 
 ### 新老版本对比
 
@@ -62,5 +63,5 @@ https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.MD
 
 ### Kitsune 原版README
 
-https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.MD
+https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.md
 

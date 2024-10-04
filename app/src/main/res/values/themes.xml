@@ -14,18 +14,13 @@
         <item name="android:windowBackground">?colorSurface</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
-        <item name="android:statusBarColor">#60000000</item>
-        <item name="android:navigationBarColor">#60000000</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
     </style>
 
     <style name="Theme.Foundation.Light" parent="Base.V23.Theme.Foundation.Light" />
 
     <style name="Theme.Foundation" parent="Base.V23.Theme.Foundation" />
-
-    <style name="Theme.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/splash_background</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_layer</item>
-    </style>
 
     <style name="Base.V23.ThemeOverlay.Foundation.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
@@ -33,5 +28,30 @@
     </style>
 
     <style name="ThemeOverlay.Foundation.Dialog" parent="Base.V23.ThemeOverlay.Foundation.Dialog" />
+
+    <style name="Base.V23.Theme.Splash.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_launcher_layer</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.V23.Theme.Splash" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_launcher_layer</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Base.V23.Theme.Splash" />
+    <style name="Theme.Splash.Light" parent="Base.V23.Theme.Splash.Light" />
 
 </resources>

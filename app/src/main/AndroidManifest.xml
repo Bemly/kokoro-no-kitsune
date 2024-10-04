@@ -21,9 +21,8 @@
         tools:remove="android:appComponentFactory">
 
         <activity
-            android:name=".ui.MainActivity"
-            android:exported="true"
-            android:theme="@style/SplashTheme">
+            android:name=".ui.KokoroActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -32,6 +31,11 @@
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
         </activity>
 
         <activity

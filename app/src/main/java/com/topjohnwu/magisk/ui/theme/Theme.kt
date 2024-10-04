@@ -9,8 +9,12 @@ enum class Theme(
 ) {
 
     Piplup(
-        themeName = "Kokoro",
+        themeName = "Kokoro Air",
         themeRes = R.style.ThemeFoundationMD2_Piplup
+    ),
+    PiplupAmoled(
+        themeName = "Kokoro Pure",
+        themeRes = R.style.ThemeFoundationMD2_Amoled
     );
 
     val isSelected get() = Config.themeOrdinal == ordinal

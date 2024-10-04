@@ -264,6 +264,7 @@
                         viewModel="@{viewModel}"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
                         android:layout_marginTop="@dimen/l_50" />
 
                     <TextView

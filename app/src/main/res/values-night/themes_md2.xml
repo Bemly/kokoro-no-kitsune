@@ -24,11 +24,10 @@
     </style>
 
     <style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
-        <item name="colorSurface">#000</item>
-        <item name="colorOnPrimary">#FFF</item>
-        <item name="colorOnSecondary">#FFF</item>
-        <item name="colorOnBackground">#000</item>
-        <item name="colorOnError">#FFF</item>
+        <item name="android:windowBackground">#FB7299</item>
+        <item name="colorPrimaryVariant">#80994B78</item>
+        <item name="colorSecondary">#994B78</item>
+        <item name="colorSecondaryVariant">#80994B78</item>
     </style>
 
     <style name="ThemeFoundationMD2.Zapdos" parent="ThemeFoundationMD2.Zapdos.Base">
