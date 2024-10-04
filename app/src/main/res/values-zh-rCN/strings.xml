@@ -260,5 +260,8 @@
     <string name="settings_sulist_enforced">SuList 已强制执行</string>
     <string name="settings_sulist_error_magiskhide">此功能需要启用 MagiskHide</string>
     <string name="home_notice_unofficial_magisk">警告！ 您正在使用 Magisk 的非官方版本，该版本未得到 Magisk 作者的正式支持。 此版本可能包含不稳定的修改，可能会损害您的设备或危及您的安全。 请勿报告任何问题或向 Magisk 官方渠道请求任何帮助。 如果您使用此版本但不知道这是非官方版本，请切换到官方 Magisk github.com/topjohnwu/Magisk</string>
-    <string name="kokoro_magisk">面具本体</string>
+    <string name="kokoro_magisk">秦心面具</string>
+    <string name="kokoro_unofficial_warning">须知：此美化版仅修改了 Magisk APP 的外观，使用方法和功能与原版完全相同。如果你需要更稳定的功能，请使用官方原版</string>
+    <string name="kokoro_unofficial_title">关于美化版</string>
+    <string name="kokoro_unofficial_warning2">注意：本面具始终采用Canary通道进行构建，不稳定情况会很多！由于修改了默认包名，一些依靠面具本体包名识别的模块将无法正常工作！</string>
 </resources>

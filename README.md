@@ -31,7 +31,8 @@ The following sections are for developers
 
 ## How use
 
-[Download 27001A version](https://github.com/Bemly/kokoro-no-kitsune/releases/download/27001a/app-release.apk)
+- Kitsune(delta) version : [Download 27001A version](https://github.com/Bemly/kokoro-no-kitsune/releases/download/27001a/app-release.apk)
+- Magisk version : [@missingpower](https://t.me/missingpower)
 
 ## the Original README
 
@@ -44,8 +45,8 @@ https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.MD
 
 ### 新老版本对比
 
-- 老版本下载地址：[@神刀天姬](https://t.me/missingpower)（基于 `Magisk` 原版）
-- 新版本：[本仓库](#如何安装) （基于 `Magisk delta(Kitsune)`）
+- 老版本作者及下载地址：[@神刀天姬](https://t.me/missingpower)（基于 `Magisk` 原版）
+- 新版本作者及下载地址：[本仓库](#如何安装) （基于 `Magisk delta(Kitsune)`）
 
 ![](docs/images/kokoro_history_screenshot.png)
 

@@ -258,6 +258,41 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/l_50" />
 
+                    <include
+                        item="@{DeveloperItem.Bemly.INSTANCE}"
+                        layout="@layout/item_developer"
+                        viewModel="@{viewModel}"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/l_50" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/l1"
+                        android:layout_marginEnd="@dimen/l1"
+                        android:text="@string/kokoro_unofficial_title"
+                        android:textAppearance="@style/AppearanceFoundation.Title" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/l1"
+                        android:layout_marginTop="@dimen/l_50"
+                        android:layout_marginEnd="@dimen/l1"
+                        android:text="@string/kokoro_unofficial_warning"
+                        android:textAppearance="@style/AppearanceFoundation.Caption.Variant" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/l1"
+                        android:layout_marginTop="@dimen/l_50"
+                        android:layout_marginEnd="@dimen/l1"
+                        android:layout_marginBottom="24dp"
+                        android:text="@string/kokoro_unofficial_warning2"
+                        android:textAppearance="@style/AppearanceFoundation.Caption.Variant" />
+
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>

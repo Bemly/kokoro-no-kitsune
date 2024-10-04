@@ -237,5 +237,22 @@
     <string name="app_not_found">このアクションを扱えるアプリがありません</string>
     <string name="reboot_apply_change">再起動して変更を適用</string>
     <string name="restore_app_confirmation">隠しアプリを元のアプリへと戻します。続行しますか?</string>
+    <string name="settings_sulist_error_magiskhide">この機能を使用するにはMagiskHideを有効にする必要があります</string>
+    <string name="home_notice_unofficial_magisk">警告！Magisk の作者によって公式にサポートされていない非公式バージョンの Magisk を使用しています。このバージョンには、デバイスに損害を与えたり、セキュリティを侵害したりする可能性のある不安定な変更が含まれている可能性があります。公式 Magisk チャネルに問題を報告したり、支援を依頼したりしないでください。このバージョンを使用していて、これが非公式バージョンであることを知らない場合は、github.com/topjohnwu/Magisk で公式 Magisk に切り替えてください。</string>
+    <string name="kokoro_magisk">秦こころのマスク</string>
+    <string name="kokoro_unofficial_warning">注: この美化バージョンは、Magisk APP の外観を変更するだけであり、その使用方法と機能は元のバージョンとまったく同じです。より安定した機能が必要な場合は、公式のオリジナルバージョンを使用してください。</string>
+    <string name="kokoro_unofficial_title">美化版について</string>
+    <string name="kokoro_unofficial_warning2">注: このマスクは常に Canary チャネルを使用して構築されるため、多くの不安定な状況が発生します。デフォルトのパッケージ名の変更により、マスク本体のパッケージ名の識別に依存する一部のモジュールが正しく動作しなくなります。</string>
+    <string name="direct_install_system">直接インストール（/system を直接変更）</string>
+    <string name="settings_hidelist_config_title">MagiskHideを設定する</string>
+    <string name="settings_hidelist_config_summary">非表示リストに含めるプロセスを選択します</string>
+    <string name="settings_magiskhide_title">MagiskHide マジスクハイド</string>
+    <string name="settings_magiskhide_summary">非表示リストのプロセスに対する Magisk の変更が元に戻される</string>
+    <string name="settings_sulist_title">SuList を強制する</string>
+    <string name="settings_sulist">SuList スリスト</string>
+    <string name="settings_sulist_summary">sulist上のプロセスのみがMagiskのルートアクセスを呼び出すことができます</string>
+    <string name="settings_sulist_config_title">SuList を構成する</string>
+    <string name="settings_sulist_config_summary">スリストに含めるプロセスを選択します</string>
+    <string name="settings_sulist_enforced">SuListが施行される</string>
 
 </resources>

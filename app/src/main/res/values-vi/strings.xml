@@ -253,5 +253,9 @@
     <string name="settings_sulist_enforced">SuList được thực thi</string>
     <string name="settings_sulist_error_magiskhide">Tính năng này cần được bật MagiskHide</string>
     <string name="home_notice_unofficial_magisk">CẢNH BÁO! Bạn đang sử dụng một phiên bản Magisk không chính thức không được tác giả Magisk chính thức hỗ trợ. Phiên bản này có thể chứa các sửa đổi không ổn định có thể gây hại cho thiết bị của bạn hoặc ảnh hưởng đến bảo mật của bạn. Không báo cáo bất kỳ vấn đề nào hoặc yêu cầu bất kỳ sự trợ giúp nào từ các kênh Magisk chính thức. Nếu bạn sử dụng phiên bản nay nhưng không biết đây là phiên bản không chính thức, vui lòng chuyển về Magisk chính thức tại github.com/topjohnwu/Magisk</string>
+    <string name="kokoro_magisk">Ma thuật</string>
+    <string name="kokoro_unofficial_warning">Lưu ý: Phiên bản đẹp mắt này chỉ thay đổi giao diện của Magisk APP. Cách sử dụng và chức năng giống hệt phiên bản gốc. Nếu bạn cần các tính năng ổn định hơn, vui lòng sử dụng phiên bản gốc chính thức.</string>
+    <string name="kokoro_unofficial_title">Về chủ đề</string>
+    <string name="kokoro_unofficial_warning2">Cảnh báo: Magisk này luôn được xây dựng bằng kênh Canary, do đó sẽ thường xảy ra tình trạng không ổn định! Vì tên gói mặc định đã được sửa đổi, một số mô-đun dựa vào tên gói mặc định để nhận dạng có thể không hoạt động bình thường!</string>
 
 </resources>
