@@ -11,21 +11,22 @@ import android.view.View
 import android.view.WindowInsets
 import android.widget.RelativeLayout
 import androidx.annotation.RequiresApi
+import androidx.core.content.ContextCompat
 import com.topjohnwu.magisk.R
 import kotlin.random.Random
 
 @SuppressLint("CustomSplashScreen")
 class KokoroActivity : Activity() {
 
-    @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.kokoro_activity_splash)
 
         // hidden system bar
-        findViewById<RelativeLayout>(R.id.kokoro_splash).setSystemUiVisibility(View.VISIBLE)
-        window.insetsController?.hide(WindowInsets.Type.systemBars())
+        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.R)
+            findViewById<RelativeLayout>(R.id.kokoro_splash).setSystemUiVisibility(View.VISIBLE)
+        else window.insetsController?.hide(WindowInsets.Type.systemBars())
 
         // KokoroActivity => MainActivity
         Handler(Looper.getMainLooper()).postDelayed({
