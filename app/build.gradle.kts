@@ -22,9 +22,9 @@ android {
     namespace = "com.topjohnwu.magisk"
 
     defaultConfig {
-        applicationId = "io.github.huskydg.magisk"
+        applicationId = "moe.bemly.kokoro"
         vectorDrawables.useSupportLibrary = true
-        versionName = Config.version
+        versionName = "Kokoro Theme Edition By Bemly_"
         versionCode = Config.versionCode
         ndk {
             abiFilters += listOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")

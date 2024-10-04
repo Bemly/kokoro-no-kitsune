@@ -18,7 +18,7 @@ android {
     else "https://huskydg.github.io/download/magisk/${Config.version}.apk"
 
     defaultConfig {
-        applicationId = "io.github.huskydg.magisk"
+        applicationId = "moe.bemly.kokoro"
         versionCode = 1
         versionName = "1.0"
         buildConfigField("int", "STUB_VERSION", Config.stubVersion)

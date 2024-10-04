@@ -4,12 +4,12 @@
     <!--1st party themes-->
 
     <style name="ThemeFoundationMD2.Piplup">
-        <item name="colorPrimary">#4EAFF5</item>
-        <item name="colorPrimaryVariant">#804EAFF5</item>
-        <item name="colorSecondary">#3E78AF</item>
-        <item name="colorSecondaryVariant">#803E78AF</item>
+        <item name="colorPrimary">#FB7299</item>
+        <item name="colorPrimaryVariant">#80FB7299</item>
+        <item name="colorSecondary">#FB7299</item>
+        <item name="colorSecondaryVariant">#80FB7299</item>
         <item name="colorSurface">#0D0D0D</item>
-        <item name="colorSurfaceVariant">#171717</item>
+        <item name="colorSurfaceVariant">#2A191E</item>
         <item name="colorSurfaceSurfaceVariant">#292929</item>
         <item name="colorOnPrimary">#F9F9F9</item>
         <item name="colorOnPrimaryVariant">#D9E6E6E6</item>

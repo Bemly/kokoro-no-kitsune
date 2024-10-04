@@ -6,6 +6,6 @@
         <item name="android:enforceStatusBarContrast">false</item>
         <item name="android:enforceNavigationBarContrast">false</item>
         <item name="windowSplashScreenBackground">@color/splash_background</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_magisk_padded</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_layer</item>
     </style>
 </resources>

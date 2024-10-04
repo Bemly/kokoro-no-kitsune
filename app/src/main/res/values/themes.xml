@@ -24,7 +24,7 @@
 
     <style name="Theme.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_background</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_magisk_padded</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_layer</item>
     </style>
 
     <style name="Base.V23.ThemeOverlay.Foundation.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">

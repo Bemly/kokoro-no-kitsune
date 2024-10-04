@@ -18,7 +18,7 @@
     <string name="not_available">无法获取</string>
     <string name="hide">不再显示</string>
     <string name="home_package">包名</string>
-    <string name="home_app_title">App</string>
+    <string name="home_app_title">管理器</string>
 
     <string name="home_notice_content">仅从官方 GitHub 页面下载 Magisk。未知来源的文件可能具有恶意行为！</string>
     <string name="home_support_title">支持开发</string>
@@ -260,4 +260,5 @@
     <string name="settings_sulist_enforced">SuList 已强制执行</string>
     <string name="settings_sulist_error_magiskhide">此功能需要启用 MagiskHide</string>
     <string name="home_notice_unofficial_magisk">警告！ 您正在使用 Magisk 的非官方版本，该版本未得到 Magisk 作者的正式支持。 此版本可能包含不稳定的修改，可能会损害您的设备或危及您的安全。 请勿报告任何问题或向 Magisk 官方渠道请求任何帮助。 如果您使用此版本但不知道这是非官方版本，请切换到官方 Magisk github.com/topjohnwu/Magisk</string>
+    <string name="kokoro_magisk">面具本体</string>
 </resources>

@@ -6,7 +6,6 @@
     <data>
 
         <import type="com.topjohnwu.magisk.core.Info" />
-
         <import type="com.topjohnwu.magisk.ui.home.HomeViewModel.State" />
 
         <variable
@@ -31,19 +30,29 @@
             tools:layout_gravity="center">
 
             <ImageView
+                android:id="@+id/home_magisk_banner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/ic_home_kokoro_mask"
+                android:contentDescription="@string/kokoro_magisk"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
                 android:id="@+id/home_magisk_icon"
                 style="@style/WidgetFoundation.Icon.Primary"
                 android:padding="@dimen/l_25"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_magisk_outline" />
+                app:layout_constraintTop_toBottomOf="@+id/home_magisk_banner"
+            app:srcCompat="@drawable/ic_magisk_outline" />
 
             <TextView
                 android:id="@+id/home_magisk_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/l1"
-                android:text="@string/magisk"
+                android:text="@string/kokoro_magisk"
                 android:textAppearance="@style/AppearanceFoundation.Title"
                 android:textColor="?colorPrimary"
                 android:maxLines="1"
@@ -81,7 +90,7 @@
                     android:onClick="@{() -> viewModel.onMagiskPressed()}"
                     android:text="@string/install"
                     android:textAllCaps="false"
-                    app:icon="@drawable/ic_install"/>
+                    app:icon="@drawable/ic_install" />
 
             </FrameLayout>
 

@@ -9,36 +9,8 @@ enum class Theme(
 ) {
 
     Piplup(
-        themeName = "Piplup",
+        themeName = "Kokoro",
         themeRes = R.style.ThemeFoundationMD2_Piplup
-    ),
-    PiplupAmoled(
-        themeName = "AMOLED",
-        themeRes = R.style.ThemeFoundationMD2_Amoled
-    ),
-    Rayquaza(
-        themeName = "Rayquaza",
-        themeRes = R.style.ThemeFoundationMD2_Rayquaza
-    ),
-    Zapdos(
-        themeName = "Zapdos",
-        themeRes = R.style.ThemeFoundationMD2_Zapdos
-    ),
-    Charmeleon(
-        themeName = "Charmeleon",
-        themeRes = R.style.ThemeFoundationMD2_Charmeleon
-    ),
-    Mew(
-        themeName = "Mew",
-        themeRes = R.style.ThemeFoundationMD2_Mew
-    ),
-    Salamence(
-        themeName = "Salamence",
-        themeRes = R.style.ThemeFoundationMD2_Salamence
-    ),
-    Fraxure(
-        themeName = "Fraxure (Legacy)",
-        themeRes = R.style.ThemeFoundationMD2_Fraxure
     );
 
     val isSelected get() = Config.themeOrdinal == ordinal

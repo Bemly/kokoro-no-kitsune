@@ -6,6 +6,6 @@
         android:width="250dp"
         android:height="250dp"
         android:gravity="center"
-        android:drawable="@drawable/ic_magisk" />
+        android:drawable="@drawable/ic_kokoro_logo" />
 
 </layer-list>
