@@ -31,7 +31,11 @@ The following sections are for developers
 
 ## How use
 
-      TODO!!!
+[Download 27001A version](https://github.com/Bemly/kokoro-no-kitsune/releases/download/27001a/app-release.apk)
+
+## the Original README
+
+https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.MD
 
 ## 面具 车万秦心特供版
 
@@ -47,7 +51,7 @@ The following sections are for developers
 
 ### 如何安装
 
-      TODO!!!
+ 前往：https://github.com/Bemly/kokoro-no-kitsune/releases/ 下载
       
  须知：此美化版仅修改了 `Magisk APP` 的外观，使用方法和功能与原版完全相同。如果你需要更稳定的功能，请使用***官方原版***
 
