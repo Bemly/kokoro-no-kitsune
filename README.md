@@ -45,7 +45,7 @@ https://github.com/Bemly/kokoro-no-kitsune/blob/kitsune/README.old.MD
 ### 新老版本对比
 
 - 老版本下载地址：[@神刀天姬](https://t.me/missingpower)（基于 `Magisk` 原版）
-- 新版本：[本仓库](###如何安装) （基于 `Magisk delta(Kitsune)`）
+- 新版本：[本仓库](#如何安装) （基于 `Magisk delta(Kitsune)`）
 
 ![](docs/images/kokoro_history_screenshot.png)
 
